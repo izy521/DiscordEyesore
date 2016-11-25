@@ -1,0 +1,72 @@
+body {
+	background-color: #2a2a2a;
+	font-family: Whitney,"Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+	text-shadow: rgba(0,0,0,.01) 0 0 1px;
+}
+.speaker {
+	width: 250px;
+	height: 150px;
+	
+	border: 1px solid;
+	border-radius: 5px;
+	
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.speaker-cover {
+	position: absolute;
+	
+	width: inherit;
+	height: inherit;
+	
+	background-color: #49565a;
+	opacity: 0.7;
+}
+
+.speaker-data {
+	position: absolute;
+	
+	width: inherit;
+	height: inherit;
+}
+
+.speaker-image {
+	position: relative;
+	display: inline-block;
+	
+	top: 1%;
+	left: 1%;
+	width: 20%;
+	height: 33%;
+	
+	border: 2px solid #64c8f5;
+	border-radius: 50%;
+	
+	box-shadow: 0px 0px 10px #2cb4f1;
+	
+	background-size: cover;
+}
+
+.speaker-name {
+	position: absolute;
+	
+	top: 0px;
+	right: 0px;
+	
+    font-size: 125%;
+	font-weight: bold;
+	
+	color: white;
+}
+
+.speaker-canvas {
+	position: absolute;
+	
+	left: 0%;
+	top: 40%;
+	height: 60%;
+	width: inherit;
+	
+	border-radius: 5%;
+}
